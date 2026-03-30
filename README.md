@@ -1,24 +1,12 @@
-## Hi there 👋
+# 👋 Hi, I'm Het Patel  
 
-<!--
-**itzsonu/itzsonu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### MCA Student at PES University  
 
-Here are some ideas to get you started:
+.🎓 Currently pursuing Master of Computer Applications (MCA) at PES University
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+.🌱 Learning DevOps, Data Structures, Algorithms, and Machine Learning
 
-
-
-# 💫 About Me:
-<br>
+.💡 Interested in DevOps, WEB3, Machine Learning
 
 
 ## 🌐 Socials:
