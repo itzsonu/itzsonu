@@ -1,91 +1,115 @@
-# Hi, I'm Mritunjai Kumar
+<h1 align="center">Hi, I'm Mritunjai Kumar 👋</h1>
 
-**MCA Student at PES University · Full Stack & Backend Development · Cloud Computing**
+<p align="center">
+  <strong>Full Stack & Backend Development | Cloud Computing & DevOps</strong><br>
+  MCA Student at PES University, Bengaluru | Expected Graduation: 2027
+</p>
 
-I build web applications and explore the infrastructure that supports them. My projects span React interfaces, Node.js APIs, MongoDB data models, Python services, and Azure infrastructure as code.
+<p align="center">
+  <a href="https://itzsonu.github.io/mritunjai-portfolio/">Portfolio</a> •
+  <a href="https://www.linkedin.com/in/mritunjai-kumar-803903228">LinkedIn</a> •
+  <a href="mailto:sk1593020@gmail.com">Email</a>
+</p>
 
-I'm pursuing an **MCA with a specialization in Cloud Computing at PES University, Bengaluru**, with expected graduation in **2027**.
+---
 
-**Open to internships and entry-level opportunities in software development, full stack, backend, and cloud engineering.**
+## 👨‍💻 About Me
 
-[Portfolio](https://itzsonu.github.io/mritunjai-portfolio/) · [LinkedIn](https://www.linkedin.com/in/mritunjai-kumar-803903228) · [Email](mailto:sk1593020@gmail.com)
+I build web applications and explore the infrastructure that runs them—from responsive interfaces and authenticated APIs to databases, containers, and cloud deployments.
 
-## Selected Projects
+- 🎓 Pursuing an **MCA specializing in Cloud Computing** at **PES University, RR Campus, Bengaluru**.
+- 💻 Building projects with **React, Node.js, Express, MongoDB, and Python**.
+- ☁️ Practicing **AWS, Azure, Docker, Kubernetes, and infrastructure as code** through hands-on projects.
+- 🔍 Interested in API design, access control, automated testing, deployment automation, and service reliability.
+- 🤝 **Open to internships in Full Stack Development, Backend Development, Cloud Engineering, and DevOps.**
+
+## 🚀 Featured Projects
 
 ### FreelanceChain — Freelance Collaboration Platform
 
-A full stack project for managing collaboration between clients and freelancers, from project discovery and applications to milestone-based work.
+A full stack application connecting clients and freelancers through project discovery, proposals, agreements, and milestone delivery.
 
-**Stack:** React, JavaScript, Node.js, Express, MongoDB
+**Stack:** React · Node.js · Express · MongoDB · Docker · Vercel · Render
 
-- Implemented JWT authentication, protected routes, and client/freelancer role checks.
-- Built project search with filters, sorting, and pagination, alongside proposal submission and application validation.
-- Developed milestone workflows for work submission, review, and progression.
-- Added automated tests covering backend logic and frontend workflows.
+- Built separate workspaces for clients, freelancers, and administrators.
+- Implemented HttpOnly cookie sessions, role-based authorization, and CSRF validation.
+- Added milestone submissions and reviews, private task boards, and project conversations.
+- Integrated Google Gemini for milestone drafting and applicant comparison, with non-AI alternatives when the provider is unavailable.
+- Deployed the frontend to Vercel and backend to Render, with health endpoints and container deployment configurations.
 
-**Engineering focus:** authorization, input validation, workflow state, and frontend–backend integration.
+[View Repository](https://github.com/itzsonu/FreelanceChain) · [Live Demo](https://freelancechain-demo.vercel.app)
 
-[Explore the repository](https://github.com/itzsonu/FreelanceChain_Sem3)
+### Azure Storage Infrastructure Automation
 
-### Azure Infrastructure as Code — Storage Provisioning
+A reusable Bicep template provisioning an Azure Storage Account, Blob Service, and private Blob Container.
 
-A parameterized Azure Bicep template defining a Storage Account, Blob Service, and Blob Container.
+**Stack:** Azure · Bicep · Azure CLI · PowerShell
 
-**Stack:** Microsoft Azure, Azure Bicep, Azure CLI, PowerShell
+- Parameterized region, storage account name, container name, and storage SKU.
+- Defined resource dependencies and deployment outputs.
+- Disabled anonymous container access.
+- Used template validation and What-If analysis to review changes before deployment.
 
-- Made location, storage account name, container name, and storage SKU configurable.
-- Defined resource dependencies and deployment outputs in code.
-- Configured the container to disallow anonymous access.
-- Documented build, validation, What-If, deployment, and resource verification commands.
+[View Repository](https://github.com/itzsonu/azure-bicep-iac)
 
-**Engineering focus:** repeatable infrastructure configuration and reviewing changes before deployment.
+### Flask Service Failover Demo
 
-[Explore the repository](https://github.com/itzsonu/azure-bicep-iac)
+A local learning project exploring request routing, backend failures, and recovery.
 
-### Backend Reliability — Load Balancing and Failure Handling
+**Stack:** Python · Flask · Requests
 
-Python Flask learning projects exploring how services behave when dependencies become unavailable.
+- Implemented Round Robin routing across three service instances.
+- Added request timeouts and retries through alternate instances when a backend fails.
+- Returned HTTP 503 during total backend outages.
+- Exposed attempted backends for failure and recovery diagnostics.
 
-**Stack:** Python, Flask, Requests, HTTP
+[View Repository](https://github.com/itzsonu/FaultToleranceDemo)
 
-- Implemented Round Robin routing across three backend instances.
-- Added failover to alternate instances and exposed attempted backends in responses.
-- Demonstrated backend failure, recovery, and HTTP 503 responses during a total backend outage.
-- Explored circuit breaker states: CLOSED, OPEN, and HALF-OPEN.
+## 🧩 More Projects
 
-**Engineering focus:** request timeouts, error handling, observable retries, and recovery behavior.
+| Project | Focus | Technologies |
+|---|---|---|
+| [Kubernetes NGINX Demo](https://github.com/itzsonu/kubernetes-nginx-demo) | Local NGINX deployment with a NodePort Service | Kubernetes, Minikube, YAML |
+| [Developer Portfolio](https://github.com/itzsonu/mritunjai-portfolio) | Responsive portfolio with automated GitHub Pages publishing | HTML, CSS, JavaScript, GitHub Actions |
+| [Question Paper Hub](https://github.com/itzsonu/question-paper-hub) | In development: relational data models, indexes, and database health checks | TypeScript, PostgreSQL |
 
-[Fault Tolerance Demo](https://github.com/itzsonu/FaultToleranceDemo) · [Circuit Breaker Demo](https://github.com/itzsonu/circuit-breaker-demo)
-
-## Technical Toolkit
+## 🛠️ Technical Toolkit
 
 | Area | Technologies |
 |---|---|
-| Frontend | React, JavaScript, HTML, CSS |
-| Backend | Node.js, Express, Python, Flask, REST APIs |
-| Data | MongoDB, PostgreSQL, SQL |
-| Cloud and Infrastructure | Azure, Azure Bicep, Azure CLI |
-| Development | Git, GitHub, PowerShell, automated testing |
+| Languages | JavaScript, TypeScript, Python, Java, SQL |
+| Frontend | React, Next.js, HTML, CSS |
+| Backend | Node.js, Express, Flask, REST APIs |
+| Databases | MongoDB, Mongoose, PostgreSQL |
+| Cloud & Hosting | AWS, Azure, Vercel, Render, GitHub Pages |
+| Containers & Infrastructure | Docker, Docker Compose, Kubernetes, Minikube, Terraform, Azure Bicep |
+| CI/CD & Tools | Git, GitHub Actions, Jenkins, Azure Pipelines, Azure CLI, PowerShell |
+| Testing | Jest, React Testing Library, Node.js test runner |
 
-## Current Focus
+## 🌱 Current Focus
 
-- Improving API design, authorization, and automated testing in full stack applications.
-- Understanding service failures, retry behavior, and recovery patterns.
-- Connecting application development with repeatable cloud infrastructure.
+- Strengthening backend authorization, input validation, and automated tests.
+- Practicing repeatable deployments with containers, CI/CD, and infrastructure as code.
+- Exploring service availability, failure handling, and recovery patterns.
 
-## Education and Training
+## 🎓 Education
 
 **Master of Computer Applications — Cloud Computing**  
-PES University, Bengaluru · Expected 2027
+PES University, RR Campus, Bengaluru  
+2025–2027 · Expected graduation: 2027
 
 **Bachelor of Computer Applications**  
-Marwari College, Bhagalpur · 2021–2025
+Marwari College, Bhagalpur  
+2021–2025
 
-**Training completed:** AWS Cloud Practitioner Essentials — cloud foundations course.
+## 📚 Training Completed
 
-## Let's Connect
+- **AWS Cloud Practitioner Essentials** — Amazon Web Services
+- **Gen AI Academy** — Google Cloud & Hack2Skill
 
-I'm interested in opportunities where I can contribute to application development, backend services, or cloud infrastructure while learning from an engineering team.
+## 📫 Let's Connect
+
+I'm looking for opportunities to contribute to application development, backend services, and cloud infrastructure while learning from an engineering team.
 
 - **Email:** [sk1593020@gmail.com](mailto:sk1593020@gmail.com)
 - **LinkedIn:** [Mritunjai Kumar](https://www.linkedin.com/in/mritunjai-kumar-803903228)
