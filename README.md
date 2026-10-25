@@ -21,7 +21,7 @@ I build web applications and explore the infrastructure that runs them—from re
 - 💻 Building projects with **React, Node.js, Express, MongoDB, and Python**.
 - ☁️ Practicing **AWS, Azure, Docker, Kubernetes, and infrastructure as code** through hands-on projects.
 - 🔍 Interested in API design, access control, automated testing, deployment automation, and service reliability.
-- 🤝 **Open to internships in Full Stack Development, Backend Development, Cloud Engineering, and DevOps.**
+- 🤝 **Open to job in Full Stack Development, Backend Development, Cloud Engineering, and DevOps.**
 
 ## 🚀 Featured Projects
 
